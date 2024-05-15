@@ -1,0 +1,12 @@
+.squad{
+    background: rgb(1, 212, 240);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    border-radius: 16px;
+}
+
+.squad p{
+    color: rgb(0, 0, 0);
+}
