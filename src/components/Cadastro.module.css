@@ -1,0 +1,15 @@
+.group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px 10px;
+  }
+
+  .form{
+    background-color: rgb(100, 217, 247);
+    padding: 10px;
+    border-radius: 16px;
+  }
+
+  .button{
+    text-align: center;
+  }
