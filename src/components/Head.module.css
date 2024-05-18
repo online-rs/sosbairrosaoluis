@@ -1,0 +1,29 @@
+.navdiv{
+    background: rgb(1, 212, 240);
+    height: 80px;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgb(1, 172, 240);
+    width: 50vw;
+    justify-content: space-around;
+    border-radius: 16px;
+    padding: 5px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+
+}

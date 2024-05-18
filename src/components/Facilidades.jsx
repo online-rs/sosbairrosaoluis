@@ -1,12 +1,15 @@
 import React from 'react'
 import styles from './Facilidades.module.css'
+import Link from 'next/link'
 
 
-function Facilidades(){
+function Facilidades(prop){
     return(
-        <div className={styles.squad}>
-            <p>Atestado Defesa Civil</p>
-        </div>
+        <>
+            <Link href={prop.endereco} passHref>
+                <button className='btn btn-danger'>{prop.servico}</button>
+            </Link>
+        </>
     );
 }
 

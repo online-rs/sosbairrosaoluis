@@ -1,12 +1,14 @@
 .squad{
     background: rgb(1, 212, 240);
-    height: 100px;
-    width: 100px;
+    width: 200px;
     text-align: center;
-    align-content: center;
     border-radius: 16px;
+    display: flex;
+    row-gap: 10px;
+    padding: 20px;
+
 }
 
-.squad p{
-    color: rgb(0, 0, 0);
+.squad button{
+    width: 200px;
 }
