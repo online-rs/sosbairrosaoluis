@@ -2,7 +2,7 @@ import { GetServerSideProps } from 'next';
 import prisma from '../lib/db'; // Ajuste a importação de acordo com a estrutura do seu projeto
 import UserForm from '../components/UserForm';
 
-const names: User[] = await prisma.user.findMany();
+const names = await prisma.user.findMany();
 const valores: string[] = names.map(user=>user.name);
 
 
